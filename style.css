@@ -34,7 +34,21 @@ header h1 {
   padding: 20px;
 }
 
+.edit-mode {
+  color: #ccc;
+  
+}
+
+.edit-mode-button {
+  background-color: #228B22;
+}
+
 /* Form & Input */
+.form-control {
+  display: flex;  
+  gap: 0.5rem;
+}
+
 .form-input {
   width: 100%;
   font-size: 18px;
@@ -58,7 +72,8 @@ header h1 {
 }
 
 /* Buttons */
-.btn {
+.btn,
+.btn-cancel {
   background-color: #333;
   color: #fff;
   border: none;
@@ -67,7 +82,8 @@ header h1 {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-cancel:hover {
   background-color: #444;
 }
 
